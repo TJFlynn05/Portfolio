@@ -30,6 +30,13 @@ p{
     font-size: 20px;
     text-align: center;
 }
+
+.contacts{
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+}
+
 .AboutMeMainText{
     padding-top: 20px;
     margin-left: 15%;
