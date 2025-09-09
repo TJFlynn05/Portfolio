@@ -49,14 +49,26 @@
             </video>
         </div>
         <div class="Project-Tag-Container">
+            <ul class="tag" style="background-color: purple;">University Project</ul>
             <ul class="tag" style="background-color: aqua;">Unity</ul>
-            <span></span>
             <ul class="tag" style="background-color: grey;">C#</ul>
-            <span></span>
-            <ul class="tag"></ul>
         </div>
         <div class="Description">
             <p>
+                This is a project I did at university as part of a prototyping module, the brief was to make a game with a story and as the name of the game suggests I took
+                heavy inspiration from the game Subnautica and tried to turn it into a 2D Game, this was definitely a challenge but I wanted to push myself as far as I could
+                so I knew my absolute limit and where my skills lacked, I learnt a lot from this project and it definitely helped me improve my skills in Unity and C#. The game
+                in it's current state has not seen any more development since the end of the module but I do plan to come back to it in the future and add more features and content,
+                the current build of the game consists of a custom water physics and waves so I had more customisability but also it kept it lightweight in comparison to the built in 
+                unity bouyancy component, there was no more than what was needed and this was an interesting challenge on it's own but I managed to find out how I could manage it.
+
+                Waves were created using square sprites with a sine wave function applied to them to give the illusion of waves, this was a fun challenge to figure out and I am 
+                happy with how it turned out and it looked relatively smooth given they were square sprites. There was a game-breaking bug I encountered because the way the bouyancy worked
+                meant that if the player were to collide with another object that had bouyancy it wouldn't work as only one seemed to be active on the player at a time, it took me
+                a week to come to an idea on how to fix this which was storing how many objects the player was colliding with that had the "water" script attached they were colliding 
+                with it, because upon exiting the collision it would think the player was no longer in the water which led to the player falling through the water at out of water speeds.
+                But with the new fix in place that detected how many instances of the script it was triggering I was able to keep the player swimming as long as the instance count was 1 and 
+                above.  
 
             </p>
         </div>
