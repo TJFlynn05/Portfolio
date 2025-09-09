@@ -151,6 +151,7 @@ p{
 }
 
 .Project-Tag-Container{
+    background-color: white;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -192,11 +193,12 @@ p{
     width: auto;
     height: auto;
     overflow: hidden;
+    z-index: -1;
 }
 
 .Project-Image video{
-    min-width: 100%;
-    min-height: 100%;
+    min-width: auto;
+    min-height: auto;
     width: auto;
     height: auto;
     position: relative;
