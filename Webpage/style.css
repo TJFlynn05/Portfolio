@@ -113,11 +113,23 @@ p {
 
 
 /*-----------------Projects-----------------*/
+.Projects {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
 .Project-Container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
     padding-top: 20px;
     padding-bottom: 20px;
     border: 2px solid black;
@@ -126,8 +138,9 @@ p {
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 5%;
-    margin-bottom: 60%;
-    width: auto;
+    margin-bottom: 5%;
+    width: 90%;
+    flex-direction: column;
 }
 
 
@@ -157,7 +170,7 @@ p {
     border: 2px solid black;
     border-radius: 6px;
     bottom: 0%;
-    position: absolute;
+    position: relative;
     width: 100%;
     right: 0%;
 }
@@ -174,13 +187,12 @@ p {
 .Description {
     font-size: 10px;
     text-align: center;
-    border: 2px solid black;
+    align-self: flex-end;
     border-radius: 10px;
-    position: absolute;
-    top: 105%;
+    position: relative;
     width: 100%;
     height: auto;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .Project-Image {
