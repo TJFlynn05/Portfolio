@@ -209,3 +209,8 @@ p {
         height: auto;
         position: relative;
     }
+
+.DefaultHyperlinkCol {
+    color: blue;
+    flex-shrink: 1;
+}
