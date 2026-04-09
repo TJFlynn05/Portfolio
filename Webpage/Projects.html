@@ -1,17 +1,19 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Projects</title>
 </head>
+
 <body>
     <!--Navbar and links-->
     <header>
-        <div class = "container">
+        <div class="container">
             <!--Main Desktop Version-->
             <nav id="navbarDesktop">
-                <nav class= "navbar">
+                <nav class="navbar">
                     <ul class="nav-menu">
                         <li><a href="/Portfolio/Webpage/Home">Home</a></li>
                         <li><a href="/Portfolio/Webpage/About-Me">About Me</a></li>
@@ -43,13 +45,14 @@
         </div>
     </header>
     <h1>Projects</h1>
-    
-   <!--Projects-->
+
+    <!--Projects-->
     <div class="Project-Container">
         <div class="Project-Title">SubNOTica</div>
         <div class="Project-Image">
             <video autoplay loop controlsList="nodownload">
-                <source src="/Portfolio/Assets/Videos/SubNOTicaMainMenuScreen.mp4" type="video/mp4"></source>
+                <source src="/Portfolio/Assets/Videos/SubNOTicaMainMenuScreen.mp4" type="video/mp4">
+                </source>
             </video>
         </div>
         <div class="Project-Tag-Container">
@@ -77,32 +80,35 @@
 
             </p>
         </div>
+    </div>
 
-        <div class="Project-Container">
-            <div class="Project-Title">PCG Space Generation</div>
-            <div class="Project-Image">
-                <video autoplay loop controlsList="nodownload">
-                    <source src="" type="video/mp4"></source>
-                </video>
-            </div>
-            <div class="Project-Tag-Container">
-                <ul class="tag" style="background-color: yellow;">Development Ongoing</ul>
-                <ul class="tag" style="background-color: purple;">Personal Project</ul>
-                <ul class="tag" style="background-color: aqua;">Unity</ul>
-                <ul class="tag" style="background-color: grey;">C#</ul>
-                <ul class="tag" style="background-color: lawngreen;">PCG</ul>
-            </div>
-            <div class="Description">
-                <p>
-                    This is a project that is still actively under development but I started to work on it my personal time. This project was ultimately inspired by space games like Outer Wilds, No Mans Sky and Star Citizen,
-                    with their mechanics.
-                    No Mans Sky procedural generation is what led me to want to create procedural generated planetary systems, so far my progress with this is left at the random spawning of spheres utilising a perlin noise map and the reason
-                    for this not being further into development is because I need to learn more optimisation techiques to handle the spawning of the spheres as the generation time causes the project to hitch, freeze or crash due to a nested
-                    loop trying to handle so much data using the CPU. My plan is to load this off to the GPU for faster calculations but further research is required for this.
-
-                </p>
-            </div>
+    <div class="Project-Container">
+        <div class="Project-Title">PCG Space Generation</div>
+        <div class="Project-Image">
+            <video autoplay loop controlsList="nodownload">
+                <source src="" type="video/mp4">
+                </source>
+            </video>
         </div>
+        <div class="Project-Tag-Container">
+            <ul class="tag" style="background-color: yellow;">Development Ongoing</ul>
+            <ul class="tag" style="background-color: purple;">Personal Project</ul>
+            <ul class="tag" style="background-color: aqua;">Unity</ul>
+            <ul class="tag" style="background-color: grey;">C#</ul>
+            <ul class="tag" style="background-color: lawngreen;">PCG</ul>
+        </div>
+        <div class="Description">
+            <p>
+                This is a project that is still actively under development but I started to work on it my personal time. This project was ultimately inspired by space games like Outer Wilds, No Mans Sky and Star Citizen,
+                with their mechanics.
+                No Mans Sky procedural generation is what led me to want to create procedural generated planetary systems, so far my progress with this is left at the random spawning of spheres utilising a perlin noise map and the reason
+                for this not being further into development is because I need to learn more optimisation techiques to handle the spawning of the spheres as the generation time causes the project to hitch, freeze or crash due to a nested
+                loop trying to handle so much data using the CPU. My plan is to load this off to the GPU for faster calculations but further research is required for this.
+
+            </p>
+        </div>
+    </div>
 
 </body>
+
 </html>
