@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -8,7 +8,7 @@ body {
     margin-top: 70px;
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,23 +16,23 @@ header{
     z-index: 10;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     padding-right: 50px;
     color: white;
     text-decoration: none;
 }
 
-a:hover{
-    color: aqua;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-}
+    a:hover {
+        color: aqua;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+    }
 
-p{
+p {
     padding: 20px;
     font-size: 20px;
     text-align: center;
@@ -40,19 +40,19 @@ p{
 
 /*-----------------Universal across all pages-----------------*/
 
-.contacts{
+.contacts {
     position: absolute;
     right: 0;
     display: flex;
     gap: 6%;
 }
 
-.container{
+.container {
     width: 1280px;
     margin: auto;
 }
 
-.navbar{
+.navbar {
     width: 95%;
     margin: auto;
     min-height: 70px;
@@ -61,32 +61,33 @@ p{
     align-items: center;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
 }
 
-.navselected{
+.navselected {
     color: #737373;
 }
 
-#navHamburger{
+#navHamburger {
     display: none;
 }
 
-.hamburgerMenu{
+.hamburgerMenu {
     position: relative;
     display: inline-block;
 }
 
-        
-@media screen and (max-width: 820px){ /*If screen is less that 820px in width then swap to hamburger menu*/
-    #navbarDesktop{
+
+@media screen and (max-width: 820px) { /*If screen is less that 820px in width then swap to hamburger menu*/
+    #navbarDesktop {
         display: none;
     }
-    #navHamburger{
+
+    #navHamburger {
         display: flex;
     }
 }
@@ -95,13 +96,13 @@ p{
 
 /*-----------------About Me-----------------*/
 
-.AboutMeMainText{
+.AboutMeMainText {
     padding-top: 20px;
     margin-left: 15%;
     margin-right: 15%;
-    
 }
-.AboutMeSubTitles{
+
+.AboutMeSubTitles {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
@@ -112,7 +113,7 @@ p{
 
 
 /*-----------------Projects-----------------*/
-.Project-Container{
+.Project-Container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -125,12 +126,12 @@ p{
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 5%;
-    margin-bottom: 50%;
+    margin-bottom: 90%;
     width: auto;
 }
 
 
-.Project-Title{
+.Project-Title {
     position: absolute;
     background-color: black;
     border-radius: 4px;
@@ -144,7 +145,7 @@ p{
     font-weight: bold;
 }
 
-.Project-Tag-Container{
+.Project-Tag-Container {
     background-color: white;
     max-width: 100%;
     display: flex;
@@ -159,10 +160,9 @@ p{
     position: absolute;
     width: 100%;
     right: 0%;
-
 }
 
-.tag{
+.tag {
     border: 2px solid black;
     border-radius: 4px;
     gap: 10px;
@@ -171,7 +171,7 @@ p{
     scale: 1;
 }
 
-.Description{
+.Description {
     font-size: 10px;
     text-align: center;
     border: 2px solid black;
@@ -183,17 +183,17 @@ p{
     margin-bottom: 100px;
 }
 
-.Project-Image{
+.Project-Image {
     width: auto;
     height: auto;
     overflow: hidden;
     z-index: -1;
 }
 
-.Project-Image video{
-    min-width: auto;
-    min-height: auto;
-    width: auto;
-    height: auto;
-    position: relative;
-}
+    .Project-Image video {
+        min-width: auto;
+        min-height: auto;
+        width: auto;
+        height: auto;
+        position: relative;
+    }
